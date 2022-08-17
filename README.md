@@ -1,16 +1,21 @@
-# bookshelf
+# BOOKSHELF
 
-A new Flutter project.
+# Folder Structure
+├── lib<br />
+│   ├── models<br />
+│   │  └── user<br />
+│   ├── pages<br />
+│   │  └── home<br />
+│   ├── widgets<br />
+│   │  ├── addBook<br />
+│   │  ├── userLogin<br />
+│   │  └── userSignUp<br />
+│   ├── auth<br />
+│   ├── loginPage<br />
+│   └── main<br />
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# File setup
+* Run ```flutter channel stable``` to make sure you're on the Flutter's stable channel
+* Run ```flutter upgrade``` to pull latest Flutter updates from the stable branch
+* Run ```flutter packages get``` first to download the dependencies in this project.
+* Change connected device to Chrome (web-javascript) and run ```flutter run``` to try it live on Chrome.
